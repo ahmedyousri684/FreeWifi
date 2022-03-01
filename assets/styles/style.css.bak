@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'arbfonts samt 7017';
+    src: url('../fonts/arabfonts-samt-7017/majdy70.eot');
+    src: url('../fonts/arabfonts-samt-7017/majdy70.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/arabfonts-samt-7017/majdy70.woff2') format('woff2'),
+        url('../fonts/arabfonts-samt-7017/majdy70.woff') format('woff'),
+        url('../fonts/arabfonts-samt-7017/majdy70.ttf') format('truetype'),
+        url('../fonts/arabfonts-samt-7017/majdy70.svg#majdy70') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background: url(../images/ramsees.png) center center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+	
+}
+.main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.section1 {
+}
+.section1 img {
+    width: 60px;
+}
+.section2 {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #11111111;
+}
+.section2 h3  {
+    font: normal normal 00 60px/127px Cairo;
+}
+.section2 h3 span {
+    font: normal normal normal 60px/127px 'arbfonts samt 7017';
+}
+.section2 h5 {
+    font: normal normal bold 21px/39px Cairo;
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 156px;
+}
+.section3 img {
+    width: 130px;
+}
+.section4 {
+    display: flex;
+    justify-content: center;
+}
+.section4 img {
+    width: 100px;
+}
+.btn {
+    cursor: pointer;
+    width: 181px;
+    height: 55px;
+    background: #E3222C 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal bold 30px/56px Cairo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+footer {
+    width: 250px;
+}
+
+footer , footer a {
+    text-align: center;
+    font: normal normal normal 10px/12px Century Gothic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        padding: 10px;
+        gap: 3px;
+    }
+    /* .section1 img {
+        width: 85px;
+    } */
+    .section2 {
+        text-align: center;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    .section2 h2  {
+        font: normal normal 900 50px/94px Cairo;
+    }
+    .section2 h2 span {
+        font: normal normal normal 50px/94px 'arbfonts samt 7017';
+    }
+    .section2 h5 {
+        font: normal normal bold 15px/30px Cairo;
+    }
+
+    .section3 {
+        gap: 20px;
+    }
+    .section3 img {
+        width: 105px;
+    }
+    
+    .section4 img {
+        width: 80px;
+    }
+
+    .btn {
+        width: 113px;
+        height: 46px;
+        background: #E3222C 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 50px;
+        font: normal normal bold 21px/39px Cairo;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramsis Station</title>
+    <link href="./assets/fonts/GoogleFontcss2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="main">
+            <div class="section1">
+                <img src="./assets/images/ENR_Logo1.png" alt="ENR  Logo1">
+            </div>
+            <div class="section2">
+                <h2>
+                    عيش 
+                    <span>ع</span>
+                    النت
+                </h2>
+                <h5>
+                    أستمتع بأنترنت مجاني لمدة 15 دقيقة
+                </h5>
+            </div>
+            <div class="section3">
+                <div >
+                    <button class="btn"  id="openBtn">
+                        التالي
+                    </button>
+					
+                </div>
+                <div >
+                    <img src="./assets/images/KMT Wifi.png" alt="KMT Wifi">
+                </div>
+            </div>
+            <div class="section4">
+                <div >
+                    <img src="./assets/images/kmt-Logo.png" alt="kmt">
+                </div>
+            </div>
+        </section>
+        <footer>
+           
+        </footer>
+    </div>
+    <script src="./assets/scripts/homescript.js"></script>
+</body>
+</html>

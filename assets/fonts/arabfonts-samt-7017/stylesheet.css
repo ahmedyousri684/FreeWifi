@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'arbfonts samt 7017';
+    src: url('majdy70.eot');
+    src: url('majdy70.eot?#iefix') format('embedded-opentype'),
+        url('majdy70.woff2') format('woff2'),
+        url('majdy70.woff') format('woff'),
+        url('majdy70.ttf') format('truetype'),
+        url('majdy70.svg#majdy70') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
