@@ -1,6 +1,8 @@
 var urlParams = new URLSearchParams(window.location.search);
 var _mac = urlParams.get('mac')?.replaceAll(':', '');
 urlParams = window.location.search.replace('?', '');
+var sessionId;
+var deviceId;
 
 var GetSession = function () {
     var url =
