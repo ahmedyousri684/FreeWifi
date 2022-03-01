@@ -117,14 +117,15 @@ var Islive = false;
 authDevice();
 
 let currentDate = new Date();
+
 var seconds = 60;
 var startVedio = seconds - 1;
 
 var x = setInterval(function () {
     document.getElementById('BtnRedirect').innerHTML = ' انتظر سيتم توصيلك بالانترنت بعد ' + seconds;
-    // if (startVedio == seconds) {
-    //     $('#playButton').click();
-    // }
+    if (startVedio == seconds) {
+        $('#playButton').click();
+    }
     CheckVisibility();
     if (seconds == 55) {
         WatchingAds();

@@ -136,11 +136,10 @@ else{*/
 
         
         document.getElementById("BtnRedirect").innerHTML = " انتظر سيتم توصيلك بالانترنت بعد "+seconds ;
-if(startVedio==seconds)
-{
+
 	
  $('#playButton').click();
-}
+
       CheckVisibility();
 	  if(seconds==55)
 	  {
