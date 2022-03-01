@@ -1,201 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K6Z8JBZ');</script>
-</head>
-    <meta charset="UTF-8">
+    <head>
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-K6Z8JBZ');
+        </script>
+    </head>
+    <meta charset="UTF-8" />
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
-    <script src="./assets/scripts/jquery.min.js" defer ></script>
-    <script src="./assets/scripts/bootstrap.min.js" defer ></script>
-    <script src="./assets/scripts/bootstrap.min.js" defer ></script>
-    <script src="./assets/scripts/sitescript.js" defer ></script>
-	<script src="./assets/scripts/crypto-js.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css" />
+    <script src="./assets/scripts/jquery.min.js" defer></script>
+    <script src="./assets/scripts/bootstrap.min.js" defer></script>
+    <script src="./assets/scripts/bootstrap.min.js" defer></script>
+    <script src="./assets/scripts/sitescript.js" defer></script>
+    <script src="./assets/scripts/crypto-js.min.js"></script>
 
-<style>
-
-    
-    .vid {
-        text-align: center;
-        background-color: #fff;
-        margin-top: 40px;
+    <style>
+        .vid {
+            text-align: center;
+            background-color: #fff;
+            margin-top: 40px;
         }
-    .vid video {
-        border-radius: 12px;
-        height: 250px;
-        width: 300px;
-       margin: auto;
-    }
-
-    #vid2 {display: none;}
-
-
-
-    /* FoxPush Ad CSS*/
-    body
-    {
-        padding: 0px;
-        margin: 0px;
-        direction: rtl;
-        padding-top: 20px;
-        overflow-x: hidden;
-    }
-
-    #mainContainer {
-        position: relative;
-        width: 320px;
-        height: 180px;
-        right: 50%;
-        margin-right: -160px;
-    }
-
-    #content, #adContainer {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 320px;
-        height: 180px;
-    }
-
-    #contentElement {
-        width: 320px;
-        height: 180px;
-        overflow: hidden;
-    }
-
-    #playButton {
-        font-family: 'Almarai', sans-serif;
-        display: none;
-    }
-
-    @media only screen and (min-width: 768px) 
-    {
-        #mainContainer,#mainContainer_2{
-            width: 640px;
-            height: 360px;
-            margin-right: -320px;
+        .vid video {
+            border-radius: 12px;
+            height: 250px;
+            width: 300px;
+            margin: auto;
         }
 
-        #content,#content_2, #adContainer,#adContainer_2{
-            width: 640px;
-            height: 360px;
+        #vid2 {
+            display: none;
+        }
+
+        /* FoxPush Ad CSS*/
+        body {
+            padding: 0px;
+            margin: 0px;
+            direction: rtl;
+            padding-top: 20px;
+            overflow-x: hidden;
+        }
+
+        #mainContainer {
+            position: relative;
+            width: 320px;
+            height: 180px;
+            right: 50%;
+            margin-right: -160px;
+        }
+
+        #content,
+        #adContainer {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 320px;
+            height: 180px;
         }
 
         #contentElement {
-            width: 640px;
-            height: 360px;
+            width: 320px;
+            height: 180px;
+            overflow: hidden;
         }
-    }
 
+        #playButton {
+            font-family: 'Almarai', sans-serif;
+            display: none;
+        }
 
-    #skipContent
-    {
-    display: none;
-    }
+        @media only screen and (min-width: 768px) {
+            #mainContainer,
+            #mainContainer_2 {
+                width: 640px;
+                height: 360px;
+                margin-right: -320px;
+            }
 
-    
+            #content,
+            #content_2,
+            #adContainer,
+            #adContainer_2 {
+                width: 640px;
+                height: 360px;
+            }
 
+            #contentElement {
+                width: 640px;
+                height: 360px;
+            }
+        }
 
-</style>
+        #skipContent {
+            display: none;
+        }
+    </style>
 
-
-<body class="col-10">
-
-
-    
-    <div style="text-align: center;color:red;display: none;" id="nodata">
-     
-        <div class="alert alert-danger" style="width: 80%; max-width: 600px; margin: auto; font-family: 'Almarai', sans-serif; font-size: 29px;" role="alert">
-            يبدو أنك تستخدم ادبلوك مانع للاعلانات. يجب عليك ايقافه او ازالته اولاً حتي تتمكن من استخدام الإنترنت.
-        </div>
-    </div>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6Z8JBZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
- <div class="container">
-<div style="text-align:center;">
-<button id="BtnRedirect" class="btn btn-primary" style=" margin-top: 5vh; margin-bottom:5vh" ></button>
-   <button  id="playButton" class="btn btn-primary"  style="margin-top: 5vh; margin-bottom:5vh">لتشغيل الإنترنت يرجي تشغيل الإعلان بالأسفل اولا</button>
- 
-  </div>
-
-
-<!--add ads code here -->
-
- <div id="ads">
- 
-  
-
-    <div id="AdContent">
-        <div id="mainContainer">
-            <div id="content">
-                 <video id="contentElement" playsinline muted autoplay src="https://cdn.foxpush.net/vi15.mp4"></video>
+    <body class="col-10">
+        <div style="text-align: center; color: red; display: none" id="nodata">
+            <div
+                class="alert alert-danger"
+                style="width: 80%; max-width: 600px; margin: auto; font-family: 'Almarai', sans-serif; font-size: 29px"
+                role="alert"
+            >
+                يبدو أنك تستخدم ادبلوك مانع للاعلانات. يجب عليك ايقافه او ازالته اولاً حتي تتمكن من استخدام الإنترنت.
             </div>
-            <div id="adContainer"></div>
         </div>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-K6Z8JBZ"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div class="container">
+            <div style="text-align: center">
+                <button id="BtnRedirect" class="btn btn-primary" style="margin-top: 5vh; margin-bottom: 5vh"></button>
+                <!-- <button  id="playButton" class="btn btn-primary"  style="margin-top: 5vh; margin-bottom:5vh">لتشغيل الإنترنت يرجي تشغيل الإعلان بالأسفل اولا</button> -->
+            </div>
+
+            <!--add ads code here -->
+
+            <div id="ads">
+                <div id="AdContent">
+                    <div id="mainContainer">
+                        <div id="content">
+                            <video
+                                id="contentElement"
+                                playsinline
+                                muted
+                                autoplay
+                                src="https://cdn.foxpush.net/vi15.mp4"
+                            ></video>
+                        </div>
+                        <div id="adContainer"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
- </div>
-  
-  
-		 
-         
-
-
-         <div id="skipContent">
+        <div id="skipContent">
             <div class="row skipContent">
-      
-              <div class="row">
-                <h2 style="text-align: center;">شكراً لك يمكنك الأن الاستفادة من الإنترنت</h2> 
-              </div>
-    
+                <div class="row">
+                    <h2 style="text-align: center">شكراً لك يمكنك الأن الاستفادة من الإنترنت</h2>
+                </div>
             </div>
-      
-          </div>
+        </div>
 
- <script type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js" onerror="document.getElementById('nodata').style.display = 'block';document.getElementById('AdContent').style.display = 'none';"></script>
- <script type="text/javascript">
-    function foxpush_ad_error()
-    {
-     //   alert('Please handel the ad error here');
-    } 
+        <script
+            type="text/javascript"
+            src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+            onerror="document.getElementById('nodata').style.display = 'block';document.getElementById('AdContent').style.display = 'none';"
+        ></script>
+        <script type="text/javascript">
+            function foxpush_ad_error() {
+                //   alert('Please handel the ad error here');
+            }
 
-    function foxpush_all_ads_completed()
-    {
-      //  alert('Please handel the ad complete event here');
-	  
-	   window.location.href = "/ConnectInternet.html?session="+sessionId;
-    } 
+            function foxpush_all_ads_completed() {
+                //  alert('Please handel the ad complete event here');
 
-    function foxpush_ad_started(){
-     //   alert('Please handel the ad started event here');
-    }
-</script>
-<script type="text/javascript" src="https://native-cdn.foxpush.io/kmt_foxpush_ads.js"></script>
+                window.location.href = '/ConnectInternet.html?session=' + sessionId;
+            }
 
+            function foxpush_ad_started() {
+                //   alert('Please handel the ad started event here');
+            }
+        </script>
+        <script type="text/javascript" src="https://native-cdn.foxpush.io/kmt_foxpush_ads.js"></script>
 
-<script type="text/javascript">
-
-    window.addEventListener("load", function()
-    {
-      initDesktopAutoplayExample();
-    });
-    
-
-    </script>
-    
-
-
-
-</body>
-
-
+        <script type="text/javascript">
+            window.addEventListener('load', function () {
+                initDesktopAutoplayExample();
+            });
+        </script>
+    </body>
 </html>
