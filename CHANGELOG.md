@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://dev.azure.com///compare/v1.1.2...v1.1.3) (2022-03-02)
+
+
+### Bug Fixes
+
+* Add google tag manager script in head tag ([2908090](https://dev.azure.com///commit/29080907c78fc4e3811e1e05293ce1bab4002c59))
+* Update egyptian railway class typo ([df1e28a](https://dev.azure.com///commit/df1e28a2978943af7bd0eb75a5b71098e24d35fd))
+
 ### [1.1.2](https://dev.azure.com///compare/v1.1.1...v1.1.2) (2022-03-02)
 
 ### [1.1.1](https://dev.azure.com///compare/v1.1.0...v1.1.1) (2022-03-01)
