@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://dev.azure.com///compare/v1.1.3...v1.1.4) (2022-03-09)
+
+
+### Bug Fixes
+
+* Add the google analytics ([a31996f](https://dev.azure.com///commit/a31996f657cd5f812ae79f663f93d59344ae55a6))
+* Update the global stylesheet name ([047fed2](https://dev.azure.com///commit/047fed2653e72705fa49c92416f10ea41db6cb1a))
+* Update the google analytics key ([0dd9652](https://dev.azure.com///commit/0dd9652fc82d9b22ace10aea272eecf6c3d2607a))
+* Update the google analytics tag ([b53e471](https://dev.azure.com///commit/b53e47192e830aff68ec15cda6b755598555e7d7))
+* Update the google tag analytics ([a9bb196](https://dev.azure.com///commit/a9bb1962c4bbf85f0e6609821f8d77a6ef13c942))
+
 ### [1.1.3](https://dev.azure.com///compare/v1.1.2...v1.1.3) (2022-03-02)
 
 
