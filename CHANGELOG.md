@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://dev.azure.com///compare/v1.1.4...v1.1.5) (2022-03-09)
+
+
+### Bug Fixes
+
+* Disable browser cache with meta tag ([3c000ae](https://dev.azure.com///commit/3c000ae91e184f9bb058e81e0dfc49d5bddd082a))
+* Roll back to var and regular function instead of arrow functions ([fc95859](https://dev.azure.com///commit/fc958590cd83dd4b5bdac5f68f9fdec9036090d3))
+
 ### [1.1.4](https://dev.azure.com///compare/v1.1.3...v1.1.4) (2022-03-09)
 
 
