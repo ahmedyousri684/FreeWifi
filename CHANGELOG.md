@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://dev.azure.com///compare/v1.1.7...v1.1.8) (2022-03-12)
+
+
+### Bug Fixes
+
+* Add desc meta tag and reduc google fonts loading time ([dbcb426](https://dev.azure.com///commit/dbcb426b5fb7373c6755716ef6fbf4add4fcdbe5))
+* Compress images for production ([5bc0c57](https://dev.azure.com///commit/5bc0c574b61e2a0e2c3ea37932b01515812f373d))
+* Optimize full background size ([108be0a](https://dev.azure.com///commit/108be0acf9c0f55ac9372149e2467ac454c7a5be))
+* Reduce the timer to 5 seconds ([9680d41](https://dev.azure.com///commit/9680d41abbc2436e9e1649dbdcf9d87bc6d360e9))
+* Remove unused image resources ([6ae0058](https://dev.azure.com///commit/6ae0058f6a9d35b076c22e74ce95707085557f64))
+* Update timer to 10 seconds ([c18be41](https://dev.azure.com///commit/c18be41e7f43350d232a6ba857dd6fc78b64bc28))
+
 ### [1.1.7](https://dev.azure.com///compare/v1.1.6...v1.1.7) (2022-03-12)
 
 
