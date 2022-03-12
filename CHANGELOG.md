@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://dev.azure.com///compare/v1.1.6...v1.1.7) (2022-03-12)
+
+
+### Bug Fixes
+
+* Remove google analytics ([4de0ef8](https://dev.azure.com///commit/4de0ef8f41626f58611272a05c4c03d940384f72))
+
 ### [1.1.6](https://dev.azure.com///compare/v1.1.5...v1.1.6) (2022-03-09)
 
 
