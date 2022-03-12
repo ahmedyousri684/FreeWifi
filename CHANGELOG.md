@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.9](https://dev.azure.com///compare/v1.1.8...v1.1.9) (2022-03-12)
+
+
+### Bug Fixes
+
+* Add description meta and page title ([7aa0607](https://dev.azure.com///commit/7aa0607fb3d96a8d3cdc8d5bf3121f1133e88597))
+
 ### [1.1.8](https://dev.azure.com///compare/v1.1.7...v1.1.8) (2022-03-12)
 
 
