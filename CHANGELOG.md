@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.11](https://dev.azure.com///compare/v1.1.10...v1.1.11) (2022-03-13)
+
+
+### Bug Fixes
+
+* Change the timer to 15 seconds ([57b0e34](https://dev.azure.com///commit/57b0e3496316475b58ba47899c69b4dc77429163))
+
 ### [1.1.10](https://dev.azure.com///compare/v1.1.9...v1.1.10) (2022-03-13)
 
 
