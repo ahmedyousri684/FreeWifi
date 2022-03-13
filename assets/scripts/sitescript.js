@@ -118,7 +118,7 @@ authDevice();
 
 let currentDate = new Date();
 
-var seconds = 60;
+var seconds = 15;
 var startVedio = seconds - 1;
 
 var x = setInterval(function () {
@@ -127,7 +127,7 @@ var x = setInterval(function () {
         $('#playButton').click();
     }
     CheckVisibility();
-    if (seconds == 55) {
+    if (seconds == 10) {
         WatchingAds();
     }
     if (seconds < 1) {
