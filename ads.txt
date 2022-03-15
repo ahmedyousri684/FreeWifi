@@ -1,4 +1,4 @@
 google.com,pub-8113799588685394,RESELLER,f08c47fec0942fa0
-foxpush.com,91761, RESELLER
+foxpush.com,91761,RESELLER
 rubiconproject.com,23786,RESELLER,0bfd66d529a55807
 rubiconproject.com,23788,RESELLER,0bfd66d529a55807
