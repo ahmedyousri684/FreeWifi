@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.12](https://dev.azure.com///compare/v1.1.11...v1.1.12) (2022-03-15)
+
+
+### Bug Fixes
+
+* Remove white space ([822a563](https://dev.azure.com///commit/822a563312a244e6b2809aecfb58a1b92d36c033))
+* Remove white spaces ([dc0f377](https://dev.azure.com///commit/dc0f3775e750f00fadbd0fcfb9b45bcd92aed7b6))
+
 ### [1.1.11](https://dev.azure.com///compare/v1.1.10...v1.1.11) (2022-03-13)
 
 
