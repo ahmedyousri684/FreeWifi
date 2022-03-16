@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.14](https://dev.azure.com///compare/v1.1.13...v1.1.14) (2022-03-16)
+
+
+### Bug Fixes
+
+* Replace images with optimized webp ([e738c3a](https://dev.azure.com///commit/e738c3aa84758de8f39478eafb60e99016a7b01d))
+
 ### [1.1.13](https://dev.azure.com///compare/v1.1.12...v1.1.13) (2022-03-16)
 
 
