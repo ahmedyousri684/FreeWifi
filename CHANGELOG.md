@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.13](https://dev.azure.com///compare/v1.1.12...v1.1.13) (2022-03-16)
+
+
+### Bug Fixes
+
+* Add http to https redirect rule ([1166552](https://dev.azure.com///commit/11665525050e2ec6515816f6db7b7d09fe534fce))
+
 ### [1.1.12](https://dev.azure.com///compare/v1.1.11...v1.1.12) (2022-03-15)
 
 
