@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.15](https://dev.azure.com///compare/v1.1.14...v1.1.15) (2022-03-17)
+
+
+### Bug Fixes
+
+* Add no cache headers ([2cdb7b3](https://dev.azure.com///commit/2cdb7b3dfbdd909395fab5335be10996ef1164b7))
+* Remove caching meta tags ([204e52e](https://dev.azure.com///commit/204e52ee386d50716ec8d4e23fda1c5810d1475a))
+
 ### [1.1.14](https://dev.azure.com///compare/v1.1.13...v1.1.14) (2022-03-16)
 
 
