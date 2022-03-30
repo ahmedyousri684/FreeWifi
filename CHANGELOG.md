@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.16](https://dev.azure.com///compare/v1.1.15...v1.1.16) (2022-03-30)
+
+
+### Bug Fixes
+
+* Fix speakol auto click redirect to actual ad page instaed of the json message response ([6c48c12](https://dev.azure.com///commit/6c48c1202fa07be16fd3a2f527308a209a13b03f))
+
 ### [1.1.15](https://dev.azure.com///compare/v1.1.14...v1.1.15) (2022-03-17)
 
 
