@@ -1,8 +1,8 @@
+foxpush.com, 91761, RESELLER
+foxpush.com, 10489, DIRECT, 65a6d42f6d26cc35
 google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
 google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
 google.com, pub-8541583196492976, RESELLER, f08c47fec0942fa0
-foxpush.com, 91761 ,RESELLER
-foxpush.com, 10489, DIRECT, 65a6d42f6d26cc35
 rubiconproject.com, 23786, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23788, RESELLER, 0bfd66d529a55807
 google.com, pub-2102570192350176, DIRECT, f08c47fec0942fa0
