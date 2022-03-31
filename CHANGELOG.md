@@ -14,6 +14,22 @@ All notable changes to this project will be documented in this file. See [standa
 
 * Add missing publisher lines ([11df346](https://dev.azure.com///commit/11df346ab632779236b513adac88aab1489c57d9))
 * Change redirection to speakol video page ([ba09658](https://dev.azure.com///commit/ba096589ad0348c6b9614afd98eaf5a91142a68f))
+* List foxpush at the top ([95db47d](https://dev.azure.com///commit/95db47d35f583e800daaf5e580563449067cad11))
+* Reformat deocument ([8361422](https://dev.azure.com///commit/8361422eb55e1bb32c47cb3f3d38798669434d38))
+* Reorganize ads order ([0381a6c](https://dev.azure.com///commit/0381a6c736bdc234b64ec9f929a0faccc74fdc74))
+
+## [1.2.0](https://dev.azure.com///compare/v1.1.16...v1.2.0) (2022-03-31)
+
+
+### Features
+
+* Add speakol video ads page ([a245dd2](https://dev.azure.com///commit/a245dd2e5e98985987d8c6991f8b9b76252d7b6c))
+
+
+### Bug Fixes
+
+* Add missing publisher lines ([11df346](https://dev.azure.com///commit/11df346ab632779236b513adac88aab1489c57d9))
+* Change redirection to speakol video page ([ba09658](https://dev.azure.com///commit/ba096589ad0348c6b9614afd98eaf5a91142a68f))
 * Reformat deocument ([8361422](https://dev.azure.com///commit/8361422eb55e1bb32c47cb3f3d38798669434d38))
 
 ### [1.1.16](https://dev.azure.com///compare/v1.1.15...v1.1.16) (2022-03-30)
