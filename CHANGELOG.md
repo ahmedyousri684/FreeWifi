@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://dev.azure.com///compare/v1.1.16...v1.2.0) (2022-03-31)
+
+
+### Features
+
+* Add speakol video ads page ([a245dd2](https://dev.azure.com///commit/a245dd2e5e98985987d8c6991f8b9b76252d7b6c))
+
+
+### Bug Fixes
+
+* Add missing publisher lines ([11df346](https://dev.azure.com///commit/11df346ab632779236b513adac88aab1489c57d9))
+* Change redirection to speakol video page ([ba09658](https://dev.azure.com///commit/ba096589ad0348c6b9614afd98eaf5a91142a68f))
+* Reformat deocument ([8361422](https://dev.azure.com///commit/8361422eb55e1bb32c47cb3f3d38798669434d38))
+
 ### [1.1.16](https://dev.azure.com///compare/v1.1.15...v1.1.16) (2022-03-30)
 
 
