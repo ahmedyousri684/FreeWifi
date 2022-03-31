@@ -1,10 +1,3 @@
-foxpush.com, 91761, RESELLER
-foxpush.com, 10489, DIRECT, 65a6d42f6d26cc35
-google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
-google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
-google.com, pub-8541583196492976, RESELLER, f08c47fec0942fa0
-rubiconproject.com, 23786, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 23788, RESELLER, 0bfd66d529a55807
 google.com, pub-2102570192350176, DIRECT, f08c47fec0942fa0
 groundtruth.com, 107, RESELLER, 81cbf0a75a5e0e9a
 adtech.com, 7060, RESELLER
@@ -159,3 +152,7 @@ appnexus.com, 7164, RESELLER, f5ab79cb980f11d1
 openx.com, 537141219, RESELLER, 6a698e2ec38604c6
 openx.com, 540899591, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
+google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
+foxpush.com,91761, RESELLER
+rubiconproject.com, 23786, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 23788, RESELLER, 0bfd66d529a55807
