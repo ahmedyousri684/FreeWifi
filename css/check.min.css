@@ -1,0 +1,28 @@
+body {
+    direction: rtl;
+    font-family: Tajawal, sans-serif;
+    background: url(../img/full-bg.webp) no-repeat center center/cover;
+}
+
+#BtnRedirect {
+    color: white;
+    background-color: #ef2915;
+    font-family: Tajawal, sans-serif;
+}
+
+.vid {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.vid video {
+    border-radius: 12px;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+}
+
+#vid2 {
+    display: none;
+}
