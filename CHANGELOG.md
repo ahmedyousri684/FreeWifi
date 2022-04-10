@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://dev.azure.com///compare/v1.2.1...v1.2.2) (2022-04-10)
+
 ### [1.2.1](https://dev.azure.com///compare/v1.1.16...v1.2.1) (2022-03-31)
 
 
