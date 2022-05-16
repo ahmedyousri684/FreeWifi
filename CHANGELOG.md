@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://dev.azure.com///compare/v1.3.0...v1.3.1) (2022-05-16)
+
+
+### Bug Fixes
+
+* Remove wrong version from changelog ([08b331a](https://dev.azure.com///commit/08b331ae23440c1c82b14142bb8ce288292fa928))
+
 ## [1.3.0](https://dev.azure.com///compare/v1.2.1...v1.3.0) (2022-05-16)
 
 
