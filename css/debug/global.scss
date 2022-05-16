@@ -1,0 +1,200 @@
+$container-max-widths: (
+    xl: 1314px
+);
+
+$spacers: (
+    10: 10px,
+    20: 20px,
+    30: 30px
+);
+
+$primary: #ef2915;
+$secondary: #000;
+
+$theme-colors: (
+    'primary': $primary,
+    'secondary': $secondary
+);
+
+@import '../lib/bootstrap/scss/bootstrap';
+
+body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    color: #010101;
+}
+
+.header {
+    background: rgba(#fff, 0.8);
+    box-shadow: 0 3px 15px rgba(#000, 0.1);
+    padding: 10px 25px;
+    pointer-events: none;
+    @include media-breakpoint-down(lg) {
+        top: auto;
+        bottom: 0;
+        box-shadow: none;
+        background: transparent;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 10px;
+    }
+    .kmt {
+        max-width: 58px;
+        img {
+            width: 100%;
+        }
+    }
+    .logo {
+        max-width: 82px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.full__container {
+    min-height: 100vh;
+    background: url(../../img/full-bg.webp) no-repeat center center/cover;
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+    @include media-breakpoint-down(sm) {
+        padding-top: 0;
+    }
+    .heading {
+        h1 {
+            margin-bottom: 0;
+            color: $secondary;
+            font-size: 39px;
+            font-weight: bold;
+            @include media-breakpoint-down(md) {
+                font-size: 25px;
+            }
+            span {
+                display: inline-block;
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: -10px;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    height: 2px;
+                    width: 100%;
+                    background: $primary;
+                }
+            }
+        }
+    }
+
+    .desc {
+        font-size: 26px;
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .timer {
+        text-align: center;
+        span {
+            background: $primary;
+            border-radius: 6px;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 4px 28px 4px;
+            color: #fff;
+            box-shadow: 0 3px 6px rgba($primary, 0.6);
+            @include media-breakpoint-down(lg) {
+                font-size: 20px;
+                padding: 4px 28px 4px;
+            }
+        }
+    }
+
+    .container {
+        min-height: 88vh;
+        display: flex;
+        padding-top: 2%;
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+        }
+        .data {
+            width: 100%;
+        }
+    }
+    .left__ad {
+        position: absolute;
+        left: 25px;
+        top: 30%;
+        transform: translate(0, -50%);
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .right__ad {
+        position: absolute;
+        right: 25px;
+        top: 30%;
+        transform: translate(0, -50%);
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .top__ad {
+        position: absolute;
+        bottom: 23%;
+        width: calc(100% - 30px);
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: auto;
+    }
+    .bottom__ad {
+        position: absolute;
+        bottom: 140px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .ad-320x50 {
+        width: 320px;
+        height: 50px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-300x250 {
+        width: 300px;
+        height: 250px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-300x100 {
+        width: 300px;
+        height: 100px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-320x100 {
+        width: 320px;
+        height: 100px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-728x90 {
+        width: 728px;
+        height: 90px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-300x600 {
+        width: 300px;
+        height: 600px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+    .ad-720x90 {
+        width: 720px;
+        height: 90px;
+        background: #ccc;
+        margin: 0 auto;
+    }
+}

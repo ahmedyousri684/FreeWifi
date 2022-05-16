@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="15 minutes free internet WIFI provided by KMT" />
+        <title>KMT WIFI</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <!-- connect to domain of font files -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- optionally increase loading priority -->
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+        />
+        <!-- async CSS -->
+        <link
+            rel="stylesheet"
+            media="print"
+            onload="this.onload=null;this.removeAttribute('media');"
+            href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+        />
+        <!-- no-JS fallback -->
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+            />
+        </noscript>
+
+        <link rel="stylesheet" href="css/debug/global.min.css" />
+        <script defer src="js/vendor/jquery.min.js"></script>
+        <script src="https://cdn.speakol.com/widget/js/speakol-widget-v2.js"></script>
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    </head>
+    <body>
+        <!-- page footer -->
+        <div class="header fixed-bottom">
+            <div class="container d-flex justify-content-between align-items center">
+                <div class="logo">
+                    <img src="img/logo.webp" alt="Egyptian Railways Logo" />
+                </div>
+                <div class="kmt">
+                    <img src="img/kmt.webp" alt="KMT Logo" />
+                </div>
+            </div>
+        </div>
+
+        <!-- page body -->
+        <div class="full__container">
+            <div class="container flex-column">
+                <div class="data">
+                    <div class="row flex-column align-items-center">
+                        <div class="col-xl-6 col-lg-4 mx-auto">
+                            <div class="heading">
+                                <h1 id="welcome_msg_h1">عيش <span class="text-primary">علي</span> النت</h1>
+                            </div>
+                            <div class="desc mt-md-30 mt-10">
+                                أستمتع بأنترنت مجاني لمدة
+                                <span class="text-primary">15 دقيقة</span>
+                            </div>
+                            <div class="timer mt-md-30 mt-10">
+                                <span id="counterTwo">10</span>
+                            </div>
+                            <div class="d-block text__center mt-10">يرجي الانتظار حتي انتهاء الوقت</div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="mt-10">
+                                <div class="speakol-widget" id="sp-wi-9052">
+                                    <script>
+                                        (spksdk = window.spksdk || []).push({
+                                            widget_id: 'wi-9052',
+                                            element: 'sp-wi-9052'
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg__ad">
+                        <div class="ad-320x50">
+                            <div id="gpt-passback-md-sm-three">
+                                <script>
+                                    window.googletag = window.googletag || { cmd: [] };
+                                    googletag.cmd.push(function () {
+                                        googletag
+                                            .defineSlot(
+                                                '/21795300705,22683059832/ssp_display/22687948415',
+                                                [320, 50],
+                                                'gpt-passback-md-sm-three'
+                                            )
+                                            .addService(googletag.pubads())
+                                            .addService(googletag.pubads());
+                                        googletag.enableServices();
+                                        googletag.display('gpt-passback-md-sm-three');
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/debug/connect.min.js"></script>
+    </body>
+</html>

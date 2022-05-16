@@ -1,0 +1,89 @@
+.vid {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.vid video {
+    border-radius: 12px;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+}
+
+.font-tajawal {
+    font-family: Tajawal, sans-serif;
+}
+
+#vid2 {
+    display: none;
+}
+
+/* FoxPush Ad CSS*/
+body {
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    padding-top: 20px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background: url(../img/full-bg.webp) no-repeat center center/cover;
+}
+
+#BtnRedirect {
+    color: white;
+    background-color: #ef2915;
+    font-family: Tajawal, sans-serif;
+}
+
+#mainContainer {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    right: 50%;
+    margin-right: -160px;
+}
+
+#content,
+#adContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 320px;
+    height: 180px;
+}
+
+#contentElement {
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+}
+
+#playButton {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    #mainContainer,
+    #mainContainer_2 {
+        width: 640px;
+        height: 360px;
+        margin-right: -320px;
+    }
+
+    #content,
+    #content_2,
+    #adContainer,
+    #adContainer_2 {
+        width: 640px;
+        height: 360px;
+    }
+
+    #contentElement {
+        width: 640px;
+        height: 360px;
+    }
+}
+
+#skipContent {
+    display: none;
+}

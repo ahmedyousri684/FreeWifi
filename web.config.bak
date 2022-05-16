@@ -8,6 +8,11 @@
                 <add name="Expires" value="0" />
             </customHeaders>
         </httpProtocol>
+		<defaultDocument>
+            <files>
+                <add value="index.html" />
+            </files>
+        </defaultDocument>
         <rewrite>
             <rules>
                 <rule name="Force HTTPS" enabled="true">

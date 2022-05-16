@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
         <script defer src="js/vendor/jquery.min.js"></script>
         <script defer src="js/vendor/bootstrap.min.js"></script>
-        <script defer src="js/check-1.min.js"></script>
+        <script defer src="js/debug/check-1.min.js"></script>
         <script defer src="js/vendor/crypto-js.min.js"></script>
     </head>
     <body class="font-tajawal col-10">
