@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://dev.azure.com///compare/v1.3.1...v1.4.0) (2022-05-16)
+
+
+### Features
+
+* Add cloud.svg image ([ff81b56](https://dev.azure.com///commit/ff81b56ae99c421dcc5e681105d5fade8391652a))
+* Add different sizes for favicons ([3d5e7b3](https://dev.azure.com///commit/3d5e7b3fa6216a26b21e166cbf5ccc6930ae94c8))
+* Add kmt about & safety rules images ([09c42f5](https://dev.azure.com///commit/09c42f51e1b561d4dd0f19c4c2020cf6443c6b0b))
+* Add menu and weather widget to the markup ([292d3bd](https://dev.azure.com///commit/292d3bd8d229ae665f206a7fa18c8e7b8c435723))
+* Add menu script file ([d73d8ea](https://dev.azure.com///commit/d73d8eae49658a20a7016267b6259c72c28e6403))
+* Create about page ([6161d95](https://dev.azure.com///commit/6161d953f0545543f0048fe3773b8fd399936521))
+* Create safety rules ([705d1d5](https://dev.azure.com///commit/705d1d50d89044131d87b8bd3138a5ac9bd4cb15))
+* Update the markup to the new design ([5c60978](https://dev.azure.com///commit/5c6097884ab607ccf6ead356ce5f8b016303a6a2))
+
+
+### Bug Fixes
+
+* Add dash between links in footer ([43ecce3](https://dev.azure.com///commit/43ecce34797433e9a005d565acd7572ae2a5b5b6))
+* Create terms & conditions page ([7650961](https://dev.azure.com///commit/765096194cf6ac0228b43949f34dbb8bbafb698f))
+* Fix terms & conditions link typo ([3194649](https://dev.azure.com///commit/3194649ee7ebd558ba8bf08e449a87135517f4c6))
+* Fix the terms & condition typo ([12853c2](https://dev.azure.com///commit/12853c2bb32746093267154285bf05e86760c6f7))
+* Move favicon.ico to favicon folder ([9308f99](https://dev.azure.com///commit/9308f9928012c201f7613d11858224960016762e))
+* Reduce time to 10 seconds ([9feb587](https://dev.azure.com///commit/9feb5879b16e65b5206c042fbad3152245881d76))
+* Remove close window function ([662867d](https://dev.azure.com///commit/662867dbfb3a2ba9c09a6e93321e92378820f3a4))
+* Rename check file ([5d9fd0c](https://dev.azure.com///commit/5d9fd0c7edca68e275818e37612393d2e62db0cf))
+* Rename menu file ([e15f493](https://dev.azure.com///commit/e15f493bceb5041250ed473790897ed3d47aa81a))
+* Update menu script link ([f43e87f](https://dev.azure.com///commit/f43e87f21ce601815c91ae1bf7000b0b44cebd91))
+* Update styles background ([35f09d8](https://dev.azure.com///commit/35f09d866dbc83c773bb78d4ed4ce9e49ecde821))
+* Update the order of footer links ([34e50ae](https://dev.azure.com///commit/34e50ae342eaf3ab64a6b9a82e3174307bcd6028))
+* Update the page markup and add openweather & menu button ([6568b5e](https://dev.azure.com///commit/6568b5e627b6ff152e9ec6f0036acb00074d47d9))
+
 ### [1.3.1](https://dev.azure.com///compare/v1.3.0...v1.3.1) (2022-05-16)
 
 
