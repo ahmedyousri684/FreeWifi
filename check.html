@@ -136,7 +136,7 @@
                                         .defineSlot(
                                             '/21795300705,22683059832/ssp_display/22687948415',
                                             [300, 250],
-                                            'gpt-passback'
+                                            'gpt-passback-1'
                                         )
                                         .addService(googletag.pubads())
                                         .addService(googletag.pubads());
@@ -155,7 +155,7 @@
                                         .defineSlot(
                                             '/21795300705,22683059832/ssp_display/22687948415',
                                             [320, 50],
-                                            'gpt-passback'
+                                            'gpt-passback-2'
                                         )
                                         .addService(googletag.pubads())
                                         .addService(googletag.pubads());
@@ -174,7 +174,7 @@
                                         .defineSlot(
                                             '/21795300705,22683059832/ssp_display/22687948415',
                                             [300, 100],
-                                            'gpt-passback'
+                                            'gpt-passback-3'
                                         )
                                         .addService(googletag.pubads())
                                         .addService(googletag.pubads());
@@ -228,7 +228,7 @@
                                         .defineSlot(
                                             '/21795300705,22683059832/ssp_display/22687948415',
                                             [320, 100],
-                                            'gpt-passback'
+                                            'gpt-passback-4'
                                         )
                                         .addService(googletag.pubads())
                                         .addService(googletag.pubads());
@@ -249,7 +249,7 @@
                                         .defineSlot(
                                             '/21795300705,22683059832/ssp_display/22687948415',
                                             [300, 600],
-                                            'gpt-passback'
+                                            'gpt-passback-5'
                                         )
                                         .addService(googletag.pubads())
                                         .addService(googletag.pubads());
@@ -262,22 +262,29 @@
                 </div>
             </div>
         </div>
+        <div id="skipContent">
+            <!-- <div class="row skipContent">
+                <div class="row">
+                    <h6 style="text-align: center">شكراً لك يمكنك الأن الاستفادة من الإنترنت</h6>
+                </div>
+            </div> -->
+        </div>
         <script
             type="text/javascript"
             src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"
-            onerror="document.getElementById('nodata').style.display = 'block';document.getElementById('AdContent').style.display = 'none';"
+            onerror="document.getElementById('AdContent').style.display = 'none';"
         ></script>
         <script type="text/javascript">
             function foxpush_ad_error() {
-                alert('Please handel the ad error here');
+                // alert('Please handel the ad error here');
             }
 
             function foxpush_all_ads_completed() {
-                alert('Please handel the ad complete event here');
+                window.location.href = 'connect.html' + '?session=' + sessionId;
             }
 
             function foxpush_ad_started() {
-                alert('Please handel the ad started event here');
+                // alert('Please handel the ad started event here');
             }
         </script>
         <script type="text/javascript" src="https://native-cdn.foxpush.io/kmt_foxpush_ads.js"></script>
