@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://dev.azure.com///compare/v1.4.0...v1.5.0) (2022-05-17)
+
+
+### Features
+
+* Add google analytics scrip ([cea8415](https://dev.azure.com///commit/cea8415b0e692f98ab0764fc0381a377afc69475))
+* Add google analytics script ([84cf18b](https://dev.azure.com///commit/84cf18bb2b78e130335e2633d3a867c8cff3097d))
+* Add new publishers & resellers ([2495e65](https://dev.azure.com///commit/2495e65d29ebbb71e580339a6e85dedf9af47d6e))
+
+
+### Bug Fixes
+
+* Fix identation ([835fde6](https://dev.azure.com///commit/835fde676daf86ccf4fc2174f8453d93731c9879))
+* Update google tag slots ids ([435305e](https://dev.azure.com///commit/435305e4049f8786e8b69edec68a38fb1ed8c140))
+
 ## [1.4.0](https://dev.azure.com///compare/v1.3.1...v1.4.0) (2022-05-16)
 
 
