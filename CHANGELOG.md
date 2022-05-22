@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://dev.azure.com///compare/v1.5.0...v1.5.1) (2022-05-22)
+
+
+### Bug Fixes
+
+* Increase timer to 30 seconds ([fcaedcc](https://dev.azure.com///commit/fcaedcc72c52b75bc4e2abc13d9fb57c7437c12a))
+* Inrease timer to 30 seconds ([97f37cf](https://dev.azure.com///commit/97f37cf25ec2b18d3b26b672d4cb7335239af1e6))
+* Remove google analytics ([c5830e0](https://dev.azure.com///commit/c5830e0256eaf8eb9f6ce520ce7b0ac4d43dd77a))
+* Update ads.txt with new entries ([11bd0c6](https://dev.azure.com///commit/11bd0c67bea368064a4c7bfa9c22d265d1709273))
+
 ## [1.5.0](https://dev.azure.com///compare/v1.4.0...v1.5.0) (2022-05-17)
 
 
