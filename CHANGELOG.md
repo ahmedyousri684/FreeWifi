@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.2](https://dev.azure.com///compare/v1.6.1...v1.6.2) (2022-05-25)
+
+
+### Bug Fixes
+
+* Remove unused resources ([5e6863f](https://dev.azure.com///commit/5e6863f327c6f0dda99a1ac1cccbb0946dc612a9))
+
 ### [1.6.1](https://dev.azure.com///compare/v1.6.0...v1.6.1) (2022-05-25)
 
 
