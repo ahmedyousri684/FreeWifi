@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://dev.azure.com///compare/v1.6.0...v1.6.1) (2022-05-25)
+
+
+### Bug Fixes
+
+* Add play inline attribute ([8f6ef78](https://dev.azure.com///commit/8f6ef7824b1240302ee1455d7041b440b904acbc))
+* Remove video stream constraints ([ba3db18](https://dev.azure.com///commit/ba3db1872a1036f257f1709ece106473ab0f03a4))
+* Update 300x250 ads ids ([28d459c](https://dev.azure.com///commit/28d459ccd67fa95e16cd9f417d2f8df2eda7808d))
+
 ## [1.6.0](https://dev.azure.com///compare/v1.5.1...v1.6.0) (2022-05-23)
 
 
