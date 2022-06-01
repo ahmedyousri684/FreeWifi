@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://dev.azure.com///compare/v1.6.3...v1.7.0) (2022-06-01)
+
+
+### Features
+
+* Add age and gender detection ([73ef835](https://dev.azure.com///commit/73ef835e20b3b9903b0bbe54143c4f1bb603b266))
+* Add gender and aged model ([685c872](https://dev.azure.com///commit/685c8726a3daf157e2301c4304e8fc4fa837d557))
+* Add style for p element ([1bb41cf](https://dev.azure.com///commit/1bb41cf58f8994245fcc761177fcb2d999ee0345))
+
+
+### Bug Fixes
+
+* Update viewport to be mobile first & h1 to p ([bc83c53](https://dev.azure.com///commit/bc83c5321d717fc093629da24b3b0e538ceafa41))
+
 ### [1.6.3](https://dev.azure.com///compare/v1.6.2...v1.6.3) (2022-05-25)
 
 
