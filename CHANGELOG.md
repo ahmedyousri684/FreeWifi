@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://dev.azure.com///compare/v1.7.0...v1.8.0) (2022-06-02)
+
+
+### Features
+
+* Add direct google pulisher entry ([17877da](https://dev.azure.com///commit/17877da3dbf38ca27270064c9ef776a3116b6767))
+* Add the moneytizer script tags ([e7aa1da](https://dev.azure.com///commit/e7aa1da2c638c5a34f61ba044073781177185068))
+
 ## [1.7.0](https://dev.azure.com///compare/v1.6.3...v1.7.0) (2022-06-01)
 
 
