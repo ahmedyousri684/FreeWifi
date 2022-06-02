@@ -1,4 +1,5 @@
 ### Ads.txt for Project Agora ###
+google.com, pub-5304624527155314, DIRECT, f08c47fec0942fa0
 google.com, pub-8113799588685394, RESELLER, f08c47fec0942fa0
 foxpush.com,91761, RESELLER
 adtelligent.com, 557183, DIRECT
