@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://dev.azure.com///compare/v1.8.0...v1.8.1) (2022-07-04)
+
+
+### Bug Fixes
+
+* Update second and third page to use speakol ([3331d39](https://dev.azure.com///commit/3331d3936bb86c1ab996196a9ff8c4ae52364e4b))
+
 ## [1.8.0](https://dev.azure.com///compare/v1.7.0...v1.8.0) (2022-06-02)
 
 
