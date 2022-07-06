@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta name="description"
+        content="شركه كيميت KMT هي شركه مصرية تاسست عام 2016 وقامت بتنفيذ بعض المشروعات الاعلاميه في مرافق السكة الحديد و مترو انفاق القاهرة الكبرى ذات طابع ثقافي خدمي.
+    ويعد مشروع توفير خدمه انترنت مجاني Wi-Fi داخل محطة مصر برمسيس احد وسائل تعظيم خدمات القيمة المضافة لمرفق السكة الحديد وزيادة مواردها وجذب شرائح مختلفه من الجمهور بالاضافه الى تعزيز الصوره العالميه للمحطه وقطاع النقل بصفه عامه امام رواد المحطه من المواطنين والسائحين" />
+    <meta name="keywords" content="KMT, Wi-Fi, Ramsis Station, Train" />
+    <meta name="author" content="KMT Wi-Fi" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>KMT Wi-Fi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <script>console.log("heree")</script>
+</head>
+
+<body class="form__page">
+    <script>console.log("heree")</script>
+    <div class="form">
+        <div class="left__banner">
+            <img src="./img/1200 x 1200 copy.jpg" alt="" />
+        </div>
+        <div class="container">
+            <div class="heading">
+                <h1>ادخل بياناتك</h1>
+            </div>
+            <form class="TheForm" id="TheForm">
+                <div class="form__group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" name="name" id="name" class="form__control" />
+                </div>
+                <div class="form__group">
+                    <label for="phone">رقم الموبايل:</label>
+                    <input type="tel" name="phone" id="phone" class="form__control" />
+                </div>
+                <div class="form__group custom__checkbox">
+                    <input type="checkbox" id="terms" />
+                    <label for="terms">
+                        اوافق على
+                        <a target="_blank" href="https://www.pepsixmo.com/terms">الشروط والاحكام</a> و
+                        <a target="_blank" href="https://www.pepsixmo.com/privacy">سياسة الخصوصية</a>
+                    </label>
+                </div>
+                <button type="submit" class="btn">إرسال</button>
+            </form>
+        </div>
+    </div>
+    <!-- <script src="./js/scripts.js"></script> -->
+
+    <script>
+        var TheForm = document.getElementById("TheForm")
+
+        function handleAction() {
+            console.log("reached")
+            var fromData = {
+                name: document.getElementById(name).nodeValue,
+                phoneNumber: document.getElementById(phone).nodeValue
+            }
+            const d = {
+                confirm_reauthorize: true,
+                reauthorize_profile: 'Final_Role [authenticated]'
+            };
+            const url = 'https://erfreewifi.com/api/session/' + si + '/reauthorize';
+            $.ajax({
+                type: 'Post',
+                url: url,
+                data: JSON.stringify(d),
+                headers: {
+                    Authorization: 'Bearer df2766718c23c57bc43c082197de984b6d327b89',
+                    'Content-Type': 'application/json'
+                },
+                contentType: 'application/json; charset=utf-8',
+                Accept: '*/*',
+                success: function (res) {
+                    console.log('res:', res);
+                },
+                error: function (error) {
+                    console.log('error: ', error);
+                }
+            });
+
+            const formUrl = 'http://mahermagdy-003-site23.btempurl.com/api/account/formResponse';
+            $.ajax({
+                type: 'Post',
+                url: url,
+                data: JSON.stringify(formData),
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                contentType: 'application/json; charset=utf-8',
+                Accept: '*/*',
+                success: function (res) {
+                    console.log('res:', res);
+                },
+                error: function (error) {
+                    console.log('error: ', error);
+                }
+            });
+            window.location.href = 'https://www.youtube.com/watch?v=J7SOfbFzY-E'
+        }
+        TheForm.onsubmit = handleAction
+    </script>
+</body>
+
+</html>
