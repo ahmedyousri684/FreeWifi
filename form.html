@@ -33,11 +33,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.min.css" />
-    <script>console.log("heree")</script>
+    <script defer src="js/vendor/jquery.min.js"></script>
+
 </head>
 
 <body class="form__page">
-    <script>console.log("heree")</script>
     <div class="form">
         <div class="left__banner">
             <img src="./img/1200 x 1200 copy.jpg" alt="" />
@@ -49,35 +49,38 @@
             <form class="TheForm" id="TheForm">
                 <div class="form__group">
                     <label for="name">الاسم:</label>
-                    <input type="text" name="name" id="name" class="form__control" />
+                    <input type="text" name="name" id="name" class="form__control" required />
                 </div>
                 <div class="form__group">
                     <label for="phone">رقم الموبايل:</label>
-                    <input type="tel" name="phone" id="phone" class="form__control" />
+                    <input type="tel" name="phone" id="phone" class="form__control" required />
                 </div>
                 <div class="form__group custom__checkbox">
-                    <input type="checkbox" id="terms" />
+                    <input type="checkbox" id="terms" required />
                     <label for="terms">
                         اوافق على
                         <a target="_blank" href="https://www.pepsixmo.com/terms">الشروط والاحكام</a> و
                         <a target="_blank" href="https://www.pepsixmo.com/privacy">سياسة الخصوصية</a>
                     </label>
                 </div>
-                <button type="submit" class="btn">إرسال</button>
+                <input type="button" class="btn" name="submit" value="إرسال"
+                    onclick="handleAction(document.getElementById('name').value,document.getElementById('phone').value)" />
+
             </form>
         </div>
     </div>
-    <!-- <script src="./js/scripts.js"></script> -->
-
     <script>
-        var TheForm = document.getElementById("TheForm")
-
-        function handleAction() {
-            console.log("reached")
-            var fromData = {
-                name: document.getElementById(name).nodeValue,
-                phoneNumber: document.getElementById(phone).nodeValue
+        function handleAction(name, mobile) {
+            debugger;
+            const u = new URLSearchParams(window.location.search);
+            const si = u.get('session')?.replaceAll(':', '');
+            console.log("reached");
+            debugger
+            var modle = {
+                PhoneNumber: mobile,
+                Name: name
             }
+            console.log("model", modle);
             const d = {
                 confirm_reauthorize: true,
                 reauthorize_profile: 'Final_Role [authenticated]'
@@ -101,26 +104,35 @@
                 }
             });
 
-            const formUrl = 'http://mahermagdy-003-site23.btempurl.com/api/account/formResponse';
+            const formUrl = 'https://newsmartgroup.net/api/account/formResponse';
             $.ajax({
                 type: 'Post',
-                url: url,
-                data: JSON.stringify(formData),
+                url: formUrl,
+                data: JSON.stringify(modle),
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
                 },
                 contentType: 'application/json; charset=utf-8',
                 Accept: '*/*',
                 success: function (res) {
+                    debugger;
                     console.log('res:', res);
+                    window.location.href = 'https://www.youtube.com/watch?v=J7SOfbFzY-E'
+
                 },
                 error: function (error) {
+                    debugger;
                     console.log('error: ', error);
                 }
             });
-            window.location.href = 'https://www.youtube.com/watch?v=J7SOfbFzY-E'
         }
-        TheForm.onsubmit = handleAction
+
+
+        // $(document).ready(function () {
+        //     $("#button").click(function () {
+        //         $("#form").submit();
+        //     });
+        // });
     </script>
 </body>
 
