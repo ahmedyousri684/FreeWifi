@@ -56,22 +56,37 @@
                     <input type="tel" name="phone" id="phone" class="form__control" required />
                 </div>
                 <div class="form__group custom__checkbox">
-                    <input type="checkbox" id="terms" required />
+                    <input type="checkbox" id="terms" />
                     <label for="terms">
                         اوافق على
                         <a target="_blank" href="https://www.pepsixmo.com/terms">الشروط والاحكام</a> و
                         <a target="_blank" href="https://www.pepsixmo.com/privacy">سياسة الخصوصية</a>
                     </label>
                 </div>
+                <p class="errMsg" id="err" style="color: #fa0202;"></p>
                 <input type="button" class="btn" name="submit" value="إرسال"
-                    onclick="handleAction(document.getElementById('name').value,document.getElementById('phone').value)" />
+                    onclick="handleAction(document.getElementById('name').value,document.getElementById('phone').value,document.getElementById('terms').checked)" />
 
             </form>
         </div>
     </div>
     <script>
-        function handleAction(name, mobile) {
+        function checkForm(name, mobile, isChecked) {
             debugger;
+            var phoneno = /^0[\d]{10}$/;
+            if ((mobile.match(phoneno)) && isChecked && name) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        function handleAction(name, mobile, isChecked) {
+            const validation = checkForm(name, mobile, isChecked)
+            if (!validation) {
+                document.getElementById("err").textContent = "حدثت مشكلة رجاء راجع بياناتك"
+                return;
+            }
             const u = new URLSearchParams(window.location.search);
             const si = u.get('session')?.replaceAll(':', '');
             console.log("reached");
