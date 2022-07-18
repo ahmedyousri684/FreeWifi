@@ -73,7 +73,7 @@
     <script>
         function checkForm(name, mobile, isChecked) {
             debugger;
-            var phoneno = /^0[\d]{10}$/;
+            var phoneno = /^01[\d]{9}$|^٠١[\u0660-\u0669]{9}$/;
             if ((mobile.match(phoneno)) && isChecked && name) {
                 return true;
             }
