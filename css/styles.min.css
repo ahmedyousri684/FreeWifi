@@ -144,7 +144,7 @@ svg {
 body {
     font-family: "Tajawal", sans-serif;
     font-weight: 600;
-    background: linear-gradient(270deg, #0f294b, #1d447c);
+    background: linear-gradient(180deg, #ffcc36, #f4b427, #e19d22);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -165,47 +165,49 @@ body.form__page {
 .timer {
     position: absolute;
     bottom: auto;
-    top: 90%;
-    left: 66%;
+    top: 86%;
+    left: 50%;
     transform: translate(-62%, 0);
     text-align: center;
-    display: inline-block
+    display: inline-block;
+    opacity: 100
 }
 
 @media(max-width: 991px) {
     .timer {
-        top: 90%;
-        left: 42%
-    }
-}
-
-@media(max-width: 767px) {
-    .timer {
-        left: 27%;
-        top: 74%
+        top: 96%;
+        left: 50%;
+        transform: translate(-50%, 0)
     }
 }
 
 .timer.timer__two {
     bottom: auto;
     top: 90%;
-    left: 66%;
-    transform: translate(-56%, 0);
+    left: 5%;
     text-align: center;
     display: inline-block
 }
 
+.timer.timer__two .time {
+    background-color: #ee1c25
+}
+
+.timer.timer__two .time_three {
+    background-color: #fbae15
+}
+
 @media(max-width: 991px) {
     .timer.timer__two {
-        left: 44%;
-        top: 85%
+        left: 24%;
+        top: 93%
     }
 }
 
 @media(max-width: 767px) {
     .timer.timer__two {
-        left: 40%;
-        top: 85%
+        left: 18%;
+        top: 92%
     }
 }
 
@@ -217,41 +219,23 @@ body.form__page {
     font-weight: bold;
     padding: 5px 28px;
     border-radius: 10px;
-    background: #0042a2
+    background: #fbae15
+}
+
+.timer .time_three {
+    min-width: 52px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 28px;
+    border-radius: 10px;
+    background: #fbae15
 }
 
 @media(max-width: 767px) {
     .timer .time {
         font-size: 16px
-    }
-}
-
-.speakol-widget {
-    margin: 0 auto;
-    position: absolute;
-    left: 5%;
-    bottom: 1%;
-    top: auto;
-    width: 471px
-}
-
-@media(max-width: 991px) {
-    .speakol-widget {
-        left: 50%;
-        top: 26%;
-        bottom: auto;
-        transform: translate(-50%, 0);
-        width: 250px
-    }
-}
-
-@media(max-width: 767px) {
-    .speakol-widget {
-        left: 50%;
-        top: 33%;
-        bottom: auto;
-        transform: translate(-50%, 0);
-        width: 95%
     }
 }
 
@@ -267,11 +251,11 @@ body.form__page {
     }
 }
 
-.form .heading {
+.form .heading__form {
     margin-bottom: 50px
 }
 
-.form .heading h1 {
+.form .heading__form h1 {
     font-size: 1.7rem
 }
 
@@ -317,7 +301,7 @@ body.form__page {
 
 .form .form__group label {
     display: block;
-    color: #0000008c;
+    color: rgba(0, 0, 0, .5490196078);
     font-weight: 700;
     margin-bottom: .5rem
 }
@@ -342,7 +326,7 @@ body.form__page {
     background-color: #fff;
     border-color: #80a1d1;
     outline: 0;
-    box-shadow: 0 0 0 .25rem #0042a240
+    box-shadow: 0 0 0 .25rem #fbae15
 }
 
 .form .custom__checkbox input {
@@ -352,6 +336,19 @@ body.form__page {
     margin-bottom: 0;
     display: none;
     cursor: pointer
+}
+
+.form .errMsg {
+    width: 100%;
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: "Tajawal"
 }
 
 .form .custom__checkbox label {
@@ -388,11 +385,11 @@ body.form__page {
 }
 
 .form .custom__checkbox input:checked+label::before {
-    background: #003582
+    background: #fbae15
 }
 
 .form a {
-    color: #0042a2;
+    color: #fbae15;
     text-decoration: underline
 }
 
@@ -410,38 +407,25 @@ body.form__page {
     vertical-align: middle;
     user-select: none;
     color: #fff;
-    background-color: #0042a2;
-    border-color: #0042a2;
-    border: .125rem solid transparent;
+    background-color: #fbae15;
+    border-color: #fbae15;
+    border: .125rem solid rgba(0, 0, 0, 0);
     border-radius: .5rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     font-family: "Tajawal"
 }
 
-.form .errMsg {
-    width: 100%;
-    padding: 1rem 1.75rem;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    font-family: "Tajawal"
-}
-
 .form .btn:hover {
     color: #fff;
-    background-color: #00388a;
-    border-color: #003582
+    background-color: #c08103;
+    border-color: #c08103
 }
 
 .form .btn:focus {
     color: #fff;
-    background-color: #00388a;
-    border-color: #003582;
-    box-shadow: 0 0 0 .25rem #265eb080
+    background-color: #c08103;
+    border-color: #c08103;
+    box-shadow: 0 0 0 .25rem #c08103
 }
 
 .banner__one {
@@ -461,8 +445,7 @@ body.form__page {
 .banner__one .images img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1))
+    object-fit: fill
 }
 
 .banner__one .images img.lg {
@@ -499,24 +482,85 @@ body.form__page {
     object-fit: fill
 }
 
-@media(max-width: 991px) {
-    .banner__one.banner__two .images img {
-        object-fit: contain
-    }
-}
-
-@media(max-width: 767px) {
-    .banner__one.banner__two .images img {
-        object-fit: fill
-    }
-}
-
 .spk-stand-wg.sp-mobile .sp-title-container p {
     font-size: 2vw !important
 }
 
 .spk-stand-wg.sp-mobile.sp-one-item .sp-title-container p {
     font-size: 16px !important
+}
+
+.video {
+    position: absolute;
+    top: auto;
+    bottom: -9%;
+    width: 31%;
+    left: 55%;
+    transform: translate(-50%, 0)
+}
+
+.video.video__two {
+    left: 4%
+}
+
+@media(max-width: 991px) {
+    .video.video__two {
+        left: 50%;
+        bottom: 21%;
+        transform: translate(-50%, 0);
+        width: 53%
+    }
+}
+
+@media(max-width: 767px) {
+    .video.video__two {
+        width: 86%
+    }
+}
+
+@media(max-width: 991px) {
+    .video {
+        bottom: 19%;
+        width: 37%;
+        transform: none;
+        left: initial
+    }
+}
+
+@media(max-width: 767px) {
+    .video {
+        bottom: auto;
+        top: 58%;
+        width: 75%
+    }
+}
+
+.heading {
+    position: absolute;
+    top: 91%;
+    right: 24%;
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: 4px 2px 0 #ee1c25
+}
+
+@media(max-width: 991px) {
+    .heading {
+        right: inherit;
+        width: 100%;
+        text-align: center;
+        top: 66%;
+        transform: translate(19px, -50%);
+        font-size: 1.8rem
+    }
+}
+
+@media(max-width: 767px) {
+    .heading {
+        font-size: 1rem;
+        top: 65%;
+        transform: translate(1px, -50%)
+    }
 }
 
 /*# sourceMappingURL=styles.min.css.map */
