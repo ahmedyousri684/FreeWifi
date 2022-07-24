@@ -520,7 +520,7 @@ body.form__page {
 
 @media(max-width: 991px) {
     .video {
-        bottom: 19%;
+        bottom: 14%;
         width: 37%;
         transform: none;
         left: initial
@@ -530,7 +530,7 @@ body.form__page {
 @media(max-width: 767px) {
     .video {
         bottom: auto;
-        top: 58%;
+        top: 63%;
         width: 75%
     }
 }
